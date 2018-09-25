@@ -7,10 +7,10 @@
 </head>
 <body>
 <ul>
-    <li><a class="active" href="{{ url_for('root')}}">Home</a></li>
-    <li><a href="templates/signup.html">Signup</a></li>
-    <li><a href="templates/login.html">Login</a></li>
-    <li><a href="templates/about.html">About</a></li>
+    <li><a class="active" href="{{ url_for('home')}}">Home</a></li>
+    <li><a href="{{url_for('signup')}}">Signup</a></li>
+    <li><a href="{{url_for('login')}}">Login</a></li>
+    <li><a href="{{url_for('about')}}">About</a></li>
 </ul>
 </body>
 </html>
